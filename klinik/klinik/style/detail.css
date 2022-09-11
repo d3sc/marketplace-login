@@ -1,0 +1,35 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: 0;
+ font-family: "Nunito";
+}
+
+main {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.back {
+ position: absolute;
+ top: 5px;
+ left: 10px;
+}
+
+.back i {
+ color: #333;
+ font-size: 40px;
+ z-index: 5;
+}
+
+.back i:hover {
+ opacity: 0.6;
+}
+.beli {
+ display: flex;
+}
+.beli input {
+ width: 80%;
+}
